@@ -12,7 +12,8 @@ Instruction Memory
 PC
 
 Data_Memory
-
+ Afinal, o que são os bits saido da ALU que entram no data memory?
+ 
 ALU_Control
  Utiliza os bits da ALUop, que são os 2 bits do opcode necessários para distinguir as operações na ULA. Além disso, usa 1 bit do funct7 para distinguir as intruções do tipo-R, o único bit necessário é o bit 30, e por fim usa os 3 bits do funct3 pelo mesmo motivo. Que culminam em 6 bits, que juntos nessa ordem, vão ser o seletor de operações da ULA. 
 (Não corro risco de usar o func7 de uma inst que não existe?) Acredito que não pois circuito cuida disto.
